@@ -19,10 +19,12 @@ def num_check(question):
 
 keep_going = ""
 while keep_going == "":
+    # welcome message for the user
+    print("Welcome to the fence cost calculator")
 
-    #get width and height
-    width = num_check("Enter the width: ")
-    height = num_check("Enter the height: ")
+    #get width and height and cost per meter from the user
+    width = num_check("Enter the width to calculate the cost: ")
+    height = num_check("Enter the height to calculate the cost: ")
     cost = num_check("Enter the cost of the fence per meter: ")
 
     # calculate perimeter and cost for the fence based of user input
@@ -40,5 +42,3 @@ while keep_going == "":
     # goodbye message for the user
     if keep_going == "n":
         print("Thank you for using the calculator​")
-    
-
