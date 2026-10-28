@@ -1,3 +1,5 @@
+# Ryan Ochse
+# 28th October 2026 
 # Fence Cost Calculator
 # it will be in meters
 
@@ -42,3 +44,6 @@ while keep_going == "":
     # goodbye message for the user
     if keep_going == "n":
         print("Thank you for using the calculator​")
+    
+
+
